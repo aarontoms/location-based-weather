@@ -62,7 +62,7 @@ fun sendLatLngToPythonAPI(lat: Double, lon: Double,
 ){
     Log.d("Bruhhh", "Sending request to Python API")
     val client = OkHttpClient()
-    val server = "http:/10.0.2.2:5000"
+    val server = "HOSTED_SERVER_URL"
     val url = "${server}/weather"
 
     val json = JSONObject()
